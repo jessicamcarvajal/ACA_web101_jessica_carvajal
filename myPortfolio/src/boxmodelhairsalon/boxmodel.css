@@ -25,17 +25,22 @@
 
   .section {
       width: 1000px;
-      height: 500px;
       border: 10px solid yellow;
       background-color: aquamarine;
       margin: 20px;
       padding: 20px;
-      display: inline-block;
+      display: flex;
   }
-  .ul {
-    display: inline-block;
+  ul {
+    display: flex;
+    list-style: none;
+  
+  }
+  
+  .tile {
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+
   }
 
-  .section {
-    display: inline-table;
-  }

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  header {
+    padding: 10px;
+    height: 300px;
+    width: 90;
+    border:5px solid #CCC;
+    margin: 30 auto;
+    align-items; stretch;
+    
+    
+  }
+
+  //.photo {
+    width: 100px;
+    height: 80px;
+    margin: 3% 10%;
+    display: row;
+    flex-wrap: wrap;
+  }
+
+  //.name {
+    padding: 1300;
+    width: 1000px;
+    height: 80px;
+    margin: 3% 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    d;
+    order: 1;
+    
+    
+  }
+
+body {
+    padding: 30000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+  }
+
+  
