@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            Header
+            My Daily Dashboard
         </header>
         <aside class="aside">
             <form name="calculator">
@@ -50,13 +50,19 @@
         <main class="main">
             Date / Time 
             <p id="date"></p>
-<script>
-document.getElementById("date").innerHTML = Date();
-</script>
+               <script>
+               document.getElementById("date").innerHTML = Date();
+               </script>
         </main>
-        <footer class="footer">
-            Footer
-        </footer>
-    </div>
+         <div class="todo">
+            <div class="todolist"> 
+               <input type="checkbox" class="firstcheckbox">
+               <div class="first">Work</div> 
+               <input type="checkbox" class="secondcheckbox">
+               <div class="second">ACA Homework</div>  
+               <input type="checkbox" class="thirdcheckbox">
+               <div class="third">Gym</div>
+            </div>
+         </div>
 </body>
 </html>
